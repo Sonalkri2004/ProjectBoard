@@ -60,7 +60,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/ProjectBoard.git
+   git clone https://github.com/Sonalkri2004/ProjectBoard
 2. Now, open new terminal, Then Install NPM:
 
 ```bash
@@ -81,7 +81,7 @@ bun dev
 
 4. Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-5. You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
+5. You can start editing the page by modifying `src/main.tsx`. The page auto-updates as you edit the file.
 </br>
 ## 📸 ScreenShots
 

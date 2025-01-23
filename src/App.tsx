@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BoardProvider } from './context/BoardContext';
-import Board from './componenets/Board';
-import TaskDetail from './componenets/TaskDetail';
-import AnalyticsDashboard from './componenets/AnalyticsDashboard';
+import Board from './components/Board';
+import TaskDetail from './components/TaskDetail';
+import AnalyticsDashboard from './components/AnalyticsDashboard';
 
 function App() {
   return (

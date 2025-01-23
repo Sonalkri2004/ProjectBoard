@@ -56,10 +56,11 @@ const TaskDetail: React.FC = () => {
     ));
   };
 
+  
   const handleSave = () => {
-    if (status !== task.status) {
-      moveTask(taskId!, status);
-    }
+    const isStatusChanged = status !== task.status;
+
+    // First update the task details
     updateTask(taskId!, {
       title,
       description,
@@ -67,6 +68,13 @@ const TaskDetail: React.FC = () => {
       priority,
       subtasks
     });
+
+    // If status has changed, explicitly move the task
+    if (isStatusChanged) {
+      moveTask(taskId!, status);
+    }
+
+    // Navigate back to board after save
     navigate('/');
   };
 

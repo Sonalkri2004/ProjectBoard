@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { Task, Column, SubTask } from '../types';
+import { Task, Column } from '../types';
 
 interface BoardContextType {
   columns: Column[];
